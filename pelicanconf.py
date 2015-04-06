@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Sett Wai'
 SITENAME = u'sett.sh'
-SITEURL = ''
+SITEURL = 'http://sett.sh'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Africa/Johannesburg'
 
 DEFAULT_LANG = u'en'
 
@@ -19,17 +19,18 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+THEME = 'pelican-themes/svbtle'
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+TAGLINE = 'cheesy blog tagline here.'
+AUTHOR_BIO = 'Code simian, dilettante and functioning absurdist.'
+FEED_DOMAIN = 'http://sett.sh'
+
+# Blogroll
+LINKS = (('Twitter', 'http://twitter.com/settface'),
+         ('Github', 'http://github.com/sw00'))
 
 DEFAULT_PAGINATION = False
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
