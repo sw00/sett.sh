@@ -1,1 +1,4 @@
 ve/
+cache/
+*.pid
+*.pyc
