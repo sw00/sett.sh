@@ -2,3 +2,4 @@ ve/
 cache/
 *.pid
 *.pyc
+pelican-themes/
