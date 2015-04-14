@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from markdown import extensions
 
 AUTHOR = u'Sett Wai'
 SITENAME = u'sett.sh'
 SITEURL = 'http://sett.sh'
+#SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -21,13 +23,14 @@ AUTHOR_FEED_RSS = None
 
 THEME = 'pelican-themes/svbtle'
 
-TAGLINE = 'cheesy blog tagline here.'
+TAGLINE = 'witty blog tagline here.'
 AUTHOR_BIO = 'Code simian, dilettante and functioning absurdist.'
 FEED_DOMAIN = 'http://sett.sh'
 
 # Blogroll
 LINKS = (('Twitter', 'http://twitter.com/settface'),
-         ('Github', 'http://github.com/sw00'))
+         ('Github', 'http://github.com/sw00'),
+         ('Keybase', 'http://keybase.io/sw00'))
 
 DEFAULT_PAGINATION = False
 
