@@ -21,11 +21,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-THEME = 'pelican-themes/svbtle'
+THEME = 'pelican-themes/svbhack'
 
 TAGLINE = 'witty blog tagline here.'
 AUTHOR_BIO = 'Code simian, dilettante and functioning absurdist.'
 FEED_DOMAIN = 'http://sett.sh'
+
+DISQUS_SITENAME = 'sett-sh'
+
 
 # Blogroll
 LINKS = (('Twitter', 'http://twitter.com/settface'),
