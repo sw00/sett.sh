@@ -3,7 +3,7 @@ Slug: contributing-to-pixelated
 Date: 2015-04-15
 Modified: 2015-04-15
 Tags: security, open source
-Summary: I had the opportunity to participate in a hack night for the [Pixelated Project](https://pixelated-project.org/). A new secure, email platform with a focus on privacy and encryption at its core but meant for everyone - not just cybersecurity junkies. Based on my experience, I'll outline how to get started with it and contribute - it's still in its early stages of development.
+Summary: I had the opportunity to participate in a hack night for the [Pixelated Project](https://pixelated-project.org/). A new, secure email platform with a focus on privacy and encryption at its core but meant for everyone - not just cybersecurity junkies. Based on my experience, I'll outline how to get started with it and contribute - it's still in its early stages of development.
 
 Last week the pixelated team here in TW Porto Alegre hosted a hack night which allowed me to dive into the enigmatic [Pixelated Project](https://pixelated-project.org/) and even submit a pull request! Read on if you'd like to know more.
 
@@ -45,7 +45,7 @@ Once the box has been provisioned you'll need to run the go script[^3] which wil
     
 Now, just one more step to get it running. The user agent needs to connect to a provider that you've registered with. In traditional terms, this is meant to be your ISP's mail server, Gmail, company's Exchange server...except this is a Pixelated provider. 
 
-To fire up the user agent, just type the command below and follow the prompts.
+To fire up the user agent, just type the command below and follow the prompts. Be sure to enter `dev.pixelated-project.org` as the host and ensure your path to the certificate is correct. I had trouble initially because I had typos in my path that I didn't find.
 
 `pixelated-user-agent --host 0.0.0.0 -lc /vagrant/service/pixelated/certificates/dev.pixelated-project.org.ca.crt`
 
