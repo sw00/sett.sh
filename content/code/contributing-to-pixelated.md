@@ -58,8 +58,8 @@ I found the project really easy to get into and just getting your first pull req
 
 I can easily see this being used in by organisations internally instead of the poorly supported Gmail for Enterprise. Wouldn't it be great to free yourself from Gmail but keep all the functionality and have an even better UI? Not to mention the security benefits.
 
-[^1]: FlightJS is an extremely basic JS library that gives you the event emitter/subscriber pattern. This is great because it allows you build your app interaction any way you'd like without buying into a whole framework's way of doing things.
+[^1]: I think a lot of the focus will be on the User Agent, since the LEAP platform will be implementation specific and is well supported by the [https://leap.se/](LEAP Foundation) already. Although I did hear something about developing ability for  infrastructure to fire up docker containers for each User Agent's session (!! way too cool)
 
-[^2]: I think a lot of the focus will be on the User Agent, since the LEAP platform will be implementation specific and is well supported by the [https://leap.se/](LEAP Foundation) already. Although I did hear something about developing ability for  infrastructure to fire up docker containers for each User Agent's session (!! way too cool)
+[^2]: FlightJS is an extremely basic JS library that gives you the event emitter/subscriber pattern. This is great because it allows you build your app interaction any way you'd like without buying into a whole framework's way of doing things.
 
 [^3]: A go script is that script in every software project that is the central point to trigger tasks such as setting up the environment, database migrations, build and run tests. It just has a name now: the `./go` script.
