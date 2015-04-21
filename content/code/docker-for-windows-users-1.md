@@ -7,9 +7,12 @@ Summary: I've seen a lot of developers either unaware and confused as to what ex
 
 ### Foreword
 
-Even though this is meant to be an introduction to Docker, I'd like to use this opportunity to sell *nix and why it's important as a developer and technologist to be interested in and work with *nix.
+I won't actually be teaching you how to use Docker in this first post, - this one is just to explain where it all fits in. I'm also using this opportunity to explain Linux and its importance/relevance. If you want a TL;DR introduction read this [StackOverflow question](http://stackoverflow.com/questions/16047306/how-is-docker-io-different-from-a-normal-virtual-machine).
 
-As with many people my age (27), I primarily started working and playing on computers when graphical user interfaces were already the norm and Windows 95 had just hit the peak of popularity. Unless your parents were engineers of some sort, personal computers were generally seen as just a new home appliance. If you had a computer in the 90s, it most likely was a Packard Bell that came with Windows 95 and Intel Pentium processor of some sort. 
+As with many people my age (27), I primarily started working and playing on computers when graphical user interfaces were already the norm and Windows 95 had just hit the peak of popularity. Unless your parents were engineers of some sort, personal computers were generally seen as just a new home appliance. If you had a computer in the 90s, it most likely was a Packard Bell that came with Windows 95 and Intel Pentium processor of some sort.
+
+![Packard Bell Pentium 133](http://i.imgur.com/7hVG709.jpg)<br/>
+<small>Low-res nostalgia bomb!</small>
 
 It's in this context that a lot of us grew up. However, this puts us at a disadvantage. Just as today's "apps", tablets and smart phones can be seen as relegating the general purpose computer to "Facebook" machines, ours was the first wave of this trend. The capacitive touch screen is just the evolution of the computer mouse. This is a great thing, but if you're a technologist, it's important to understand that the Windows ecosystem is only one alternate timeline in the history of computing.
 
@@ -33,6 +36,8 @@ A lot of operating systems would come to be developed adhering to POSIX standard
 
 In 1981 IBM launched the IBM Personal Computer with a microprocessor based on its flagship 8088 chip[^8088]. It also came installled a with tiny, simple operating system by Microsoft, called MS-DOS. Unlike UNIX-like operating systems around at the time, MS-DOS was single-task, single-user and certainly not POSIX compliant.
 
+![MS-DOS box](http://i.imgur.com/0Z1RcIAl.jpg)
+
 Personal computers became insanely popular for some reason and Microsoft introduced Windows as an addon to MS-DOS to compete with Apple's very expensive Macintosh computer. The Macintosh featured a Graphical User Interface, the hottest new thing in technology. The rest is history: Windows dominated the personal computing space through OEM deals with hardware manufacturers and eventually every computer you could buy was either a Windows or a Mac. Meanwhile, UNIX-like OSes like Linux took firm hold of the Web Server space. The numbers are very [telling](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category): 91.25% of all personal computers are Windows, but only a third of servers on the web.
 
 ### Implications
@@ -45,6 +50,9 @@ Because a server rack is a specialised, expensive piece of equipment, a common t
 
 Apart from efficiency, virtualisation provides other benefits such as the ability to easily automatically configure them. New virtual machines can be "spun up" and provisioned without buying additional hardware up-front. You can clone/back up entire machines and move them around. These are all features that are the backbone for Infrastructure as a Service (IaaS) which simply means you can pay a provider like [Rackspace](http://rackspace.com/), [Linode](https://www.linode.com/) or [Digital Ocean](https://www.digitalocean.com/) for a Virtual Private Server and have it almost immediately.
 
+![Virtualisation diagram](https://www.vmware.com/files/images/diagrams/vmw-virtualization-defined.jpg)
+<small>VMWare explains virtualisation.</small>
+
 The most common scenario for virtualisation is on a hardware level: the host machine's physical resources would be virtualised and available to the guest machine as "fake" hardware. Physical things like RAM, CPU, GPU and HDD could be virtualised. A host machine with 32GB RAM, 1TB HDD and 8 CPUs could possible provide 4 virtual machines of 8GB, 250GB and 2 vCPU. The problem however, is that these resources are fixed for the duration that the VM is running - if 1 VM is idle, it can't share its 2vCPUS and 8GB RAM with the others. Also, each VM would need to boot up and run its own OS. This is still a little inefficient.
 
 With regards to software development, virtualisation allows us to easily have consistent environments amongst locally through the use of [vagrant](http://vagrantup.com/) and virtual box.
@@ -54,6 +62,8 @@ With regards to software development, virtualisation allows us to easily have co
 Containers are just another term for [Operating System Level Virtualisation](https://en.wikipedia.org/wiki/Operating-system-level_virtualization). In contrast to whole-system or hardware virtualisation, containers do not provide abstraction for physical resources. Instead, they provide a virtual userspace[^userspace] and directory structure for applications to be run. These applications all run on the same operating system and kernel but are isolated from each other. One application in a container would generally not be able to see or manipulate files/memory in another container.
 
 Operating System Level Virtualisation ala containers has a massive advantage over hardware virtualisation in that you can easily run hundreds of containers on a host without any problems since they share all physical resources of the host system.
+
+![Containers vs VMs](http://zdnet4.cbsistatic.com/hub/i/r/2014/10/02/c5ebe949-49e6-11e4-b6a0-d4ae52e95e57/resize/770x578/54eff63621dfffda68806c80e2a411a5/azuredockervmcontainer.png)
 
 The reason why containers are not very prominent in Windows ecosystem is because of its single-user, single-process history (I stand to be corrected on this). Also containerisation was never a core operating system feature and traditionally provided by third party, proprietary software in Windows.
 
@@ -66,10 +76,24 @@ Docker was started by [Solomon Hykes](https://twitter.com/solomonstre) in 2013 w
 
 One distinctive feature docker has is that it uses the AUFS filesystem which is a layered file system. This simply means that AUFS can take a base image of filesystem and apply changes to it and each change will have it's own unique layer. In practice this is effectively source control built into the file system, with additional features of being able to mount other filesystems into paths in it.
 
+Another benefit is that it allows you to run applications for any Linux distribution on the same host. Since it effectively allows you to define the userspace/userland filesystem, you can deploy an app or service in a CentOS container and it will run just fine on an Ubuntu host for example.
+
+More recently, Microsoft has actually developed a docker container for [ASP.NET](https://registry.hub.docker.com/u/microsoft/aspnet/) so you can now deploy your .NET applications on a Linux host, or [vice-versa](http://weblogs.asp.net/scottgu/docker-and-microsoft-integrating-docker-with-windows-server-and-microsoft-azure).
+
 
 ### What's in it for Devs?
-Just like 
 
+Just like Vagrant changed the way we provision and develop applications, Docker is the next step to solving the problem of "well, it works on my machine". Using Docker, you can now have an multi-service environment that is almost exactly like production running on your local machine. 
+
+With [micro-services](http://www.thoughtworks.com/insights/blog/microservices-nutshell) gaining popularity, we're going to see a lot of software complexity pushed from away from dev effort and into the ops realm. But in order to remain effective devs, we're going to have care a lot more about how our code is deployed and lives in production. This partially what the **DevOps** movement is all about. Being able to deploy and run our entire application locally, make changes and trust that it will behave the same way in all stages is a massive win for developers and operations folk alike.
+
+I've used docker to provide a local development environment for an app that consumed 7 individual services. By packaging each one into separate containers and then bundling them into a single vagrant box that can be fired up through a [go script](http://www.thoughtworks.com/insights/blog/praise-go-script-part-i). Sadly, we never got around to using it production but it greatly aided the production support and feature development.
+
+It turns out Docker is also an extremely useful tool when dealing with critical database migrations. I've used it to create a snapshot of a production database and test migrations locally. Fortunately, it was small enough. Because of its underling AUFS filesystem, rolling back meant I simply could kill the container and firing it up again would revert it to its initial state.
+
+### End
+
+I hope that this post has been helpful and gives you an idea of where docker fits in and how it came about. In the next post I'll explain how to get started with Docker and get our hands dirty. Cheers.
 
 
 [^internet]: these principles would lay the foundation of computer interaction that we now call The Internet.
