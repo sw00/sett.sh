@@ -5,9 +5,9 @@ Modified: 2015-04-21
 Tags: docker, devops, tools
 Summary: I've seen a lot of developers either unaware and confused as to what exactly Docker and containerisation is all about. This is because they have either never encountered the use case for it, or primarily work in Windows environments. With these blog series, I'll try and explain what all the fuss is about and hopefully how you can use it in your little way.
 
-### Foreword
+I won't actually be teaching you how to use Docker in this first post, but I will be giving you a lot of background to help you understand what it's all about. I'm also using this opportunity to explain Linux and its importance/relevance. If you just want a TL;DR introduction to Docker read this [StackOverflow question](http://stackoverflow.com/questions/16047306/how-is-docker-io-different-from-a-normal-virtual-machine).
 
-I won't actually be teaching you how to use Docker in this first post, - this one is just to explain where it all fits in. I'm also using this opportunity to explain Linux and its importance/relevance. If you want a TL;DR introduction read this [StackOverflow question](http://stackoverflow.com/questions/16047306/how-is-docker-io-different-from-a-normal-virtual-machine).
+### Foreword
 
 As with many people my age (27), I primarily started working and playing on computers when graphical user interfaces were already the norm and Windows 95 had just hit the peak of popularity. Unless your parents were engineers of some sort, personal computers were generally seen as just a new home appliance. If you had a computer in the 90s, it most likely was a Packard Bell that came with Windows 95 and Intel Pentium processor of some sort.
 
