@@ -1,0 +1,24 @@
+baseurl = "https://sett.sh/"
+title = "Sett Wai"
+languageCode = "en"
+theme = "hemingway"
+copyright = "&copy; <a href=\"https://github.com/sw00\">Sett Wai</a> 2016"
+disqusShortname = "sw00"
+
+[params]
+
+[params.highlight]
+style = "atom one dark"
+languages = ["python", "javascript"]
+
+[[params.social]]
+url = "https://github.com/sw00"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/settface"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
