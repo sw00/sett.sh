@@ -4,3 +4,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "themes/hemingway"]
+	path = themes/hemingway
+	url = git@github.com:sw00/hemingway.git
