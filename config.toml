@@ -4,6 +4,7 @@ languageCode = "en"
 theme = "hemingway"
 copyright = "&copy; <a href=\"https://github.com/sw00\">Sett Wai</a> 2016"
 disqusShortname = "sett-sh"
+googleAnalytics = "UA-61607130-1"
 
 [params]
 
