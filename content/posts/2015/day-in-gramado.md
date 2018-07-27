@@ -3,6 +3,7 @@ date = "2015-04-18"
 title = "A day in Gramado"
 slug = "day-in-gramado"
 tags = ["personal", "travel"]
+aliases = [ "/post/day-in-gramado/" ]
 
 +++
 

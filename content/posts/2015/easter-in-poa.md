@@ -3,6 +3,7 @@ date = "2015-04-06"
 title = "An Easter in POA"
 slug = "easter-in-poa"
 tags = ["personal", "travel"]
+aliases = [ "/post/easter-in-poa/" ]
 
 +++
 

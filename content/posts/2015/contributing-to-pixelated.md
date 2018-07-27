@@ -2,6 +2,7 @@
 date = "2015-04-15"
 title = "Contributing to Pixelated"
 tags = ["code", "open source", "security"]
+aliases = [ "/post/contributing-to-pixelated/" ]
 
 +++
 
