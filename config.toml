@@ -1,28 +1,34 @@
 baseurl = "https://sett.sh/"
 title = "Sett Wai"
 languageCode = "en"
-theme = "hemingway"
+theme = "kiss"
 copyright = "&copy; <a href=\"https://github.com/sw00\">Sett Wai</a> 2016"
 disqusShortname = "sett-sh"
 googleAnalytics = "UA-61607130-1"
+Paginate = 5
+enableRobotsTXT = true
 
 [permalinks]
 posts = "/posts/:year/:month/:slug"
 
 [params]
 
+[params.info]
+homeTitle = "Sett Wai"
+poweredby = false
+related = true
+enableSocial = true
+adsense = ""
+
+
 [params.highlight]
 style = "atom one dark"
 languages = ["python", "javascript"]
 
-[[params.social]]
-url = "https://github.com/sw00"
-fa_icon = "fa-github"
+[params.social]
+twitter = "settface"
+github = "sw00"
+email = "exec@sett.sh"
 
-[[params.social]]
-url = "https://twitter.com/settface"
-fa_icon = "fa-twitter"
-
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+[taxonomies]
+tag = "tags"
