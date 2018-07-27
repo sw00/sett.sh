@@ -2,7 +2,7 @@ baseurl = "https://sett.sh/"
 title = "Sett Wai"
 languageCode = "en"
 theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/sw00\">Sett Wai</a> 2016"
+copyright = "&copy; <a href=\"https://github.com/sw00\">Sett Wai</a> 2018"
 disqusShortname = "sett-sh"
 googleAnalytics = "UA-61607130-1"
 Paginate = 5

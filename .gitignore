@@ -1,6 +1,1 @@
-ve/
-cache/
-*.pid
-*.pyc
-pelican-themes/
-pelican-plugins/
+themes/

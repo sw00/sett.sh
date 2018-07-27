@@ -6,11 +6,9 @@ aliases = [ "/post/docker-for-windows-users/" ]
 
 +++
 
-# Foreword
-
 As with many people my age (27), I primarily started working and playing on computers when graphical user interfaces were already the norm and Windows 95 had just hit the peak of popularity. Unless your parents were engineers of some sort, personal computers were generally seen as just a new home appliance. If you had a computer in the 90s, it most likely was a Packard Bell that came with Windows 95 and Intel Pentium processor of some sort.
 
-![Packard Bell Pentium 133](http://i.imgur.com/7hVG709.jpg)<br/>
+![Packard Bell Pentium 133](http://i.imgur.com/7hVG709.jpg#c)<br/>
 <small>Low-res nostalgia bomb!</small>
 
 It's in this context that a lot of us grew up. However, this puts us at a disadvantage. Just as today's "apps", tablets and smart phones can be seen as relegating the general purpose computer to "Facebook" machines, ours was the first wave of this trend. The capacitive touch screen is just the evolution of the computer mouse. This is a great thing, but if you're a technologist, it's important to understand that the Windows ecosystem is only one alternate timeline in the history of computing.
@@ -20,7 +18,7 @@ Below, I'll go through a brief history of computing that's important to understa
 # In the beginning
 In the beginning there was UNIX. Before affordable multi-purpose, personal computers, organisations often kept a single mainframe computer that users could connect to via ["dumb" terminals](https://en.wikipedia.org/wiki/Computer_terminal#Dumb_terminals). This was based on the idea of [time-sharing](https://en.wikipedia.org/wiki/Time-sharing) which was a way to give access to computing to many different people at the same time[^internet].
 
-![Tron Classic](http://i.imgur.com/lYUYMUG.jpg)
+![Tron Classic](http://i.imgur.com/lYUYMUG.jpg#c)
 <br/><small>A lot the original computing ideas are realised in [Tron (1982)](http://www.imdb.com/title/tt0084827/), albeit with artistic liberties taken.</small>
 
 UNIX as an underlying operating system provided small programs that the user could execute in order to specific tasks. These were tied together by a unified file system for communicating and a shell scripting language for doing more complex work. All of this work was mediated by a master control program, the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)).
@@ -29,13 +27,13 @@ Eventually in the 80s, the IEEE got together and specified a family of standards
 
 A lot of operating systems would come to be developed adhering to POSIX standards and and the Unix philosophy. The most famous of them being Linux[^linux] and FreeBSD[^OSX].
 
-![Unix timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg)
+![Unix timeline](https://upload.wikimedia.org/wikipedia/commons/c/cd/Unix_timeline.en.svg#c)
 
 # MS-DOS & Windows
 
 In 1981 IBM launched the IBM Personal Computer with a microprocessor based on its flagship 8088 chip[^8088]. It also came installled a with tiny, simple operating system by Microsoft, called MS-DOS. Unlike UNIX-like operating systems around at the time, MS-DOS was single-task, single-user and certainly not POSIX compliant.
 
-![MS-DOS box](http://i.imgur.com/0Z1RcIAl.jpg)
+![MS-DOS box](http://i.imgur.com/0Z1RcIAl.jpg#c)
 
 Personal computers became insanely popular for some reason and Microsoft introduced Windows as an addon to MS-DOS to compete with Apple's very expensive Macintosh computer. The Macintosh featured a Graphical User Interface, the hottest new thing in technology. The rest is history: Windows dominated the personal computing space through OEM deals with hardware manufacturers and eventually every computer you could buy was either a Windows or a Mac. Meanwhile, UNIX-like OSes like Linux took firm hold of the Web Server space. The numbers are very [telling](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Market_share_by_category): 91.25% of all personal computers are Windows, but only a third of servers on the web.
 
@@ -49,7 +47,7 @@ Because a server rack is a specialised, expensive piece of equipment, a common t
 
 Apart from efficiency, virtualisation provides other benefits such as the ability to easily automatically configure them. New virtual machines can be "spun up" and provisioned without buying additional hardware up-front. You can clone/back up entire machines and move them around. These are all features that are the backbone for Infrastructure as a Service (IaaS) which simply means you can pay a provider like [Rackspace](http://rackspace.com/), [Linode](https://www.linode.com/) or [Digital Ocean](https://www.digitalocean.com/) for a Virtual Private Server and have it almost immediately.
 
-![Virtualisation diagram](https://www.vmware.com/files/images/diagrams/vmw-virtualization-defined.jpg)
+![Virtualisation diagram](https://www.vmware.com/files/images/diagrams/vmw-virtualization-defined.jpg#c)
 <small>VMWare explains virtualisation.</small>
 
 The most common scenario for virtualisation is on a hardware level: the host machine's physical resources would be virtualised and available to the guest machine as "fake" hardware. Physical things like RAM, CPU, GPU and HDD could be virtualised. A host machine with 32GB RAM, 1TB HDD and 8 CPUs could possible provide 4 virtual machines of 8GB, 250GB and 2 vCPU. The problem however, is that these resources are fixed for the duration that the VM is running - if 1 VM is idle, it can't share its 2vCPUS and 8GB RAM with the others. Also, each VM would need to boot up and run its own OS. This is still a little inefficient.
@@ -62,7 +60,7 @@ Containers are just another term for [Operating System Level Virtualisation](htt
 
 Operating System Level Virtualisation ala containers has a massive advantage over hardware virtualisation in that you can easily run hundreds of containers on a host without any problems since they share all physical resources of the host system.
 
-![Containers vs VMs](http://zdnet4.cbsistatic.com/hub/i/r/2014/10/02/c5ebe949-49e6-11e4-b6a0-d4ae52e95e57/resize/770x578/54eff63621dfffda68806c80e2a411a5/azuredockervmcontainer.png)
+![Containers vs VMs](http://zdnet4.cbsistatic.com/hub/i/r/2014/10/02/c5ebe949-49e6-11e4-b6a0-d4ae52e95e57/resize/770x578/54eff63621dfffda68806c80e2a411a5/azuredockervmcontainer.png#c)
 
 The reason why containers are not very prominent in Windows ecosystem is because of its single-user, single-process history (I stand to be corrected on this). Also containerisation was never a core operating system feature and traditionally provided by third party, proprietary software in Windows.
 
