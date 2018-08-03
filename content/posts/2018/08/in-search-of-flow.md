@@ -1,6 +1,6 @@
 +++
 publishDate = "2018-08-05"
-title = "The agony and ecstacy of flow"
+title = "Dude, where's my flow?"
 tags = ["craft", "reflection", "posturing"]
 
 +++
@@ -30,11 +30,11 @@ So I left with some wild intention of leaving tech altogether. In short, I
 ragequit and went camping (after many delays).
 
 It turns out that it's easy to enter a state of blissful flow if your life is in
-danger. Camping was immersive and satisfying. There is something to be said
-about having  only one thing to worry about. Survival.
+danger. Camping is a truly immersive experience. There is something to be said
+about having only one thing focus on: surviving.
 
 > - Walden, Hatchet.
 
 [^programming_sucks]: I'll defer this explanation to the classic [Programming Sucks](http://www.stilldrinking.com/programming-sucks) post, which captures the worst parts of working collaboratively to build software.
-[^tough]: I find it no more easier now than when I started 10 years ago.
+[^tough]: I find it no more easier now than when I started roughly 10 years ago.
 [^flow]: https://en.wikipedia.org/wiki/Flow_(psychology)

@@ -1,15 +1,14 @@
 +++
 publishDate = "2017-12-17"
 title = "Four years, infinite gratitude"
-tags = ["reflection", "announcement"]
+tags = ["announcement", "career"]
 
 +++
 
 This is a cross-post of my original Facebook [note](https://www.facebook.com/notes/sett-wai/four-years-infinite-gratitude/10154927130940684),
-announcing my decision to exit ThoughtWorks and tech to take a break.
+announcing my decision to exit TW and tech to take a break.
 
 ---
-
 San Antonio, Kampala, Porto Alegre, San Francisco, Nairobi, Johannesburg. These
 are the cities I have worked in during my time at ThoughtWorks (TW), that
 quirky (yet “elite”) global IT consultancy that Martin Fowler works for, little
@@ -32,13 +31,18 @@ By New Year’s day next year, TW South Africa will cease
 to be and I have chosen to exit the company. It’s been one heck of a ride. I
 know a lot of you are disappointed and I’m truly sorry. I will be taking a
 break (a sabbatical, as it’s often called). Those who know me will also know my
-hangups about software development, consulting and basically white-collar
-office work in general. 
+hangups about software development[^swdev], consulting and basically white-collar
+office[^office] work in general. 
 
 It’s time for Sett to slow down, breathe and
-re-orientate. To be frank, I haven’t been able to flow in a while and while I’m
+re-orientate. To be frank, I haven’t been able to flow[^flow] in a while and while I’m
 not even sure if I’ll decide to remain in tech, I think my goals will always
 remain the same: 
 
-* Build cool shit 
-* Make the world suck less
+1. Build cool shit 
+2. Make the world suck less
+
+[^swdev]: [http://www.stilldrinking.org/programming-sucks](http://www.stilldrinking.org/programming-sucks)
+[^office]: [http://www.aaronsw.com/weblog/officespace](http://www.aaronsw.com/weblog/officespace)
+[^flow]: [http://wiki.c2.com/?MentalStateCalledFlow](http://wiki.c2.com/?MentalStateCalledFlow)
+
