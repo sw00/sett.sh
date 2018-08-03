@@ -7,7 +7,7 @@ tags = ["craft", "reflection", "philosophy", "career"]
 Hello, world. It's been a while. There are some words that I've been holding on to
 that I'd like to set free. I've also been hiding somewhat and now taking 
 some tentative steps back into the light. This is the first meager step. 
-I hope there's more to follow. Please be gentle and patient with me.
+I have some more to follow. Please be gentle and patient with me.
 
 For continuity, I've cross-posted my last public appearance
 [here](/posts/2017/12/four-years-infinite-gratitude).
@@ -27,7 +27,7 @@ uneven amount of limbs? What kind of tax system can support a standing army in
 the iron age[^roman]? It was probably inevitable that I'd end up in tech. But
 apart from that, I think it also translates into being more resilient to
 information overload than the average person. Evidently, this resilience is
-probably well suited to the oft dysfunctional[^programming_sucks] world of
+seems well suited to the oft dysfunctional[^programming_sucks] world of
 software development.
 
 All of this has an implicit trade-off (of course). It means I often
@@ -49,4 +49,4 @@ specialist -- specialisation is for insects (and doctors).
 
 [^roman]: If you're really [interested](https://www.youtube.com/watch?v=JTuD149AbVI).
 [^programming_sucks]: For the canonical explanation of this, see [stilldrinking.com/programming-sucks](http://www.stilldrinking.com/programming-sucks), which captures some of the worst parts of working collaboratively to build software. To be clear, it's definitely not *the worst thing ever* but does have its own challenges.
-[^pareto]: Going by the [Pareto Principle](https://www.investopedia.com/terms/p/paretoprinciple.asp), this strategy is suitable 80% of the time. But the 20% can be critical. I hope to expound on this more on this in a later post.
+[^pareto]: Going by the [Pareto Principle](https://www.investopedia.com/terms/p/paretoprinciple.asp), this strategy is suitable 80% of the time. But that remaining 20% can be critical. I hope to expound on this more in a later post.
