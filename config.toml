@@ -28,6 +28,9 @@ adsense = ""
 style = "atom one dark"
 languages = ["python", "javascript"]
 
+[params.opengraph.twitter]
+page = "settface"
+
 [params.social]
 twitter = "settface"
 github = "sw00"
@@ -35,3 +38,6 @@ email = "exec@sett.sh"
 
 [taxonomies]
 tag = "tags"
+
+[blackfriday]
+hrefTargetBlank = true
