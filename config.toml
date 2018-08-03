@@ -13,6 +13,9 @@ posts = "/posts/:year/:month/:slug"
 
 [params]
 
+[params.assets]
+customCSS = ["css/custom.css"]
+
 [params.info]
 homeTitle = "Sett Wai"
 poweredby = false
