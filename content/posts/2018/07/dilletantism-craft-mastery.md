@@ -34,9 +34,9 @@ All of this has an implicit trade-off (of course). It means I often
 never gain a deep understanding of topics, usually because I never needed to in
 order to be productive.  There's always the next thing that demands my
 attention and "perfect is the enemy of good", after all. This isn't inherently
-a bad thing.  In business, good enough is a immensely valuable principle to
+a bad thing.  In business, good enough is an immensely valuable principle to
 optimise for[^pareto]. However, after spending most of my life wading through the
-marshlands of ambient knowledge I think it's time to strive for more rigour and
+marshlands of ambient knowledge, I think it's time to strive for more rigour and
 deliberate grit. This dilettante must strive to be a polymath, but never a
 specialist -- specialisation is for insects (and doctors).
 
