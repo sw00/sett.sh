@@ -26,7 +26,7 @@ everything I encounter. How do countries work and why do starfish have an
 uneven amount of limbs? What kind of tax system can support a standing army in
 the iron age[^roman]? It was probably inevitable that I'd end up in tech. But
 apart from that, I think it also translates into being more resilient to
-information overload than the average person. Evidently, this resilience is
+information overload than the average person. Evidently, this resilience 
 seems well suited to the oft dysfunctional[^programming_sucks] world of
 software development.
 
