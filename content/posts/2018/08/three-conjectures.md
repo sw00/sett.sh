@@ -1,7 +1,7 @@
 ---
 title: "Three Conjectures"
+publishDate: 2018-08-08
 date: 2018-08-07T10:22:06+02:00
-draft: true
 
 tags: ['software dev', 'insight']
 ---

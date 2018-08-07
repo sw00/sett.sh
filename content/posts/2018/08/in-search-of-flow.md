@@ -1,6 +1,5 @@
 +++
-draft = true
-publishDate = "2018-08-05"
+publishDate = "2018-08-06"
 title = "Dude, where's my flow?"
 tags = ["personal", "reflection"]
 
@@ -32,18 +31,25 @@ matters\...
 ![Puff adder in the MTB trail](https://i.imgur.com/avLHCv1.jpg#c)
 *Friendly snek[^puff_adder] on the MTB trail. To brake or to bunny hop?
 
-I survived. And I haven't entirely given up tech. But I don't know how much
-ready to return to an office environment. It would be unethical to dive into something I cannot fully commit myself to. But I plan on inching my way back into the community. You might see me around some meetups and conferences. I also hope to eventually produce some good work for the sake of good work.
+I survived. And I haven't entirely given up tech. But I'm unsure if I'm
+currently able to engage in full time work in an office environment, especially
+for any arbitrary project or organisation. It would be unethical to dive into
+something I cannot fully commit myself to[^commitment]. But I do plan to inch
+my way back into the dev community. You might see me around some meetups and
+conferences. 
 
-What am I actually up to right now? I'm still investing in learning[^unisa] and getting good at the
-craft. I'm working on my mental health. I'll be dabbling in technical writing as well as general software
-dev experiences on this blog. There's also a particular project I have an eye on that I quite fancy and
-looking for an opportunity be a part of it in time.
+So what am I actually up to right now? I'm still investing in learning[^unisa]
+and getting good at the craft on a deeper level. I'm working on my mental
+health. I'll be dabbling in technical writing as well as sharing general
+software dev experiences on this blog.  There are some technical items in my
+backlog I'm working through. And a particular project I have an eye on that I
+quite fancy and looking for an opportunity be a part of.
 
-TL;DR I'll see you all around.
+TL;DR You'll see me around.
 
 [^politics]: Too much politics, project management and general corporate madness meant I had little time to focus on helping devs learn and build.
 [^working_software]: My colleagues will know working software is usually always my primary concern. I tend to obsess over it: "how do we build the right thing and what's its path to prod?"
 [^puff_adder]: It was a [Puff Adder](https://en.wikipedia.org/wiki/Bitis_arietans)
 [^flow]: https://en.wikipedia.org/wiki/Flow_(psychology)
-[^unisa]: I'm enrolled in a postgrad programme with modules: Logic Programming, Ontology Engineering, Machine Learning. This takes up most of my time.
+[^unisa]: I'm enrolled in a postgrad programme with modules: Logic Programming, Ontology Engineering, Machine Learning. This takes up most of my time, as well as re-learning a whole lot of Math I've always tried to avoid.
+[^commitment]: I have trouble committing to banality. It's one of my biggest deficiencies. I'm trying to work on it.
