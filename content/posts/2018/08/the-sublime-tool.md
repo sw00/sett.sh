@@ -1,7 +1,6 @@
 ---
 title: "The Sublime Tool"
 date: 2018-08-21T19:23:38+02:00
-draft: true
 markdown: mmark
 tags: ['craft', 'tools', 'software dev']
 ---
@@ -14,8 +13,9 @@ dilemmas:
 2. There will always be much better resources elsewhere, because
 3. I'm not an expert in anything.
 
-So instead of yet another tutorial on test-driven Ansible or the hottest web
-framework of the week, I present to you some general ideas with a better shelf-life.
+So instead of yet another tutorial on test-driven Ansible, Kafka or whatever
+the hottest web framework of the week, I present to you some general ideas with
+that come with a better shelf-life.
 
 ---
 
@@ -23,7 +23,7 @@ I recently finished reading a rather interesting book, [_The Craftsman_ by
 Richard Sennett](https://www.goodreads.com/book/show/19075322-the-craftsman).
 It had quite a lot of insights that reified some of the intuitions I've been
 having about the nature of work, learning, teaching, flow state, craft and
-mastery.  Whether explicitly or not, I'd like to unpack some of
+mastery. Whether explicitly or not, I'd like to unpack some of
 the little big ideas in the book here as I digest them over time.
 
 It's impossible to speak of craft without mentioning tools. Tools will form an
@@ -60,8 +60,8 @@ _all-purpose_ tool. Such a tool is challenging because it's not immediate
 obvious how to use it most effectively[^scalpels]. It's often so basic in form that it
 seems incomplete but that makes it highly adaptable. It's up to the wielder to
 improvise with it, adapting its form to meet the challenges they're facing. Such
-a tool can be described as _sublime_: an object simple in form that can seemingly
-do anything.
+a tool can be described as being _sublime_: an object simple in form that can
+seemingly do anything.
 
 > Getting better at using tools comes to us, in part, when the tools challenge
 > us, and this challenge often occurs just because the tools are not
@@ -76,10 +76,10 @@ application cannot solve.
 # Cool story, bro?
 
 "Great, but how is this useful?", you ask. What does it have to do with
-software development? Well, let's break it down into simple propositions
-about how software is built:
+software development? Well, let's break it down into some simple propositions
+about the nature of software development as a broad activity:
 
-1. The activity of developing software is extremely context-sensitive[^context].
+1. The details of developing software are extremely context-sensitive[^context].
 2. The inputs to sofware development are numerous and ambiguous[^ambiguous].
 
 Seeing the connection yet? These insights should should raise a rather
@@ -92,25 +92,25 @@ I'd hazard that the closest thing to something like that is the _ability to
 reason_. **There is no substitute for thinking**. Again, so obvious it seems like 
 a cop-out, but it's difficult to understate how much we try to avoid using this 
 tool. As individuals, reaching for the newest latest [buzzword] technology and 
-as organisations investing millions into agile methodology certifications. The
-selective pressure to achieve arbitrary measures of success rather than 
-engaging with the things we're trying to produce[^arbitrary].
+as organisations, investing millions into agile methodology certifications. We
+succumb to the selective pressure of achieving arbitrary measures of success,
+rather than engaging with the things we're trying to produce[^arbitrary].
 
 We also tend to overlook that the sublime tool is not static. It has the
 potential to be a precision instrument, like a surgeon's scalpel. It can be
-mastered, adapted, improved upon.
+mastered, adapted, the technique behind its use improved upon.
 
 # Acquiring precision
 
 I think, to improve is equivalent to being more precise. Precision can't be
-acquired if meaning is implicit, hidden and we're lackadaisical in the way we
-communicate. Based on this, we can smell that the use of language is a strong
-input to quality of thinking. See what I just did there?
+acquired if meaning is implicit, hidden and we're being lackadaisical in the
+way we communicate. Based on this idea, we can smell that the use of language
+is a strong input to quality of thinking. See what I just did there?
 
 So semantics are important. But fluency in language comes with exposure, so I'd
 encourage you to read. A lot. Read code, read documentation, read fiction, read
 magazines, read comics, film screenplays, cooking recipes, cereal box
-ingredients, lease agreements and contracts. And I don't mean this from only in
+ingredients, lease agreements and contracts. And I don't mean this only in
 an Anglo-centric sense. Read in the language that you think in. The benefit
 you want to acquire is ultimately richness in thought (knowing a lot of words
 is just a second-order effect).
@@ -118,7 +118,7 @@ is just a second-order effect).
 What else? Pointing out the relationship between language and cognition and
 telling you to read isn't exactly "precise". True, there are more formal
 methods. I think being exposed to Propositional Logic[^logic] is the best hack
-to mastering the sublime tool. In fact, I think Propositional Logic is probably
+to mastering our sublime tools. In fact, I think Propositional Logic is probably
 the closest manifestation of a truly "all-purpose" tool. Simple in form and not
 immediately obvious in its use, but mastering it yields great benefit in every
 sphere of life. And it's not just for developers either. Really, go get your
@@ -127,8 +127,8 @@ grandma hooked on Propositional Logic, you won't regret it[^grandma].
 
 [^kubrick]: This idea is stretched to the most profound extent by Kubrick in that single, iconic, brilliant [match cut](https://youtu.be/mI3s5fA7Zhk).
 [^scalpels]: Sennett uses the scalpel as an example: early surgeons learnt how to use the new precision instrument only by trial and error.
-[^context]: As evidenced by the failure of methodologies like SaFE, SCRUM, etc. to produce consistent repeatable results. No other technical discipline sees such huge variances between input/outputs.
-[^ambiguous]: Unlike physical production, which is more-or-less constrained by the natural laws of physics, the building software often more of a social process than it is an engineering discipline. This does not mean we aren't systematic or can't be.
+[^context]: As evidenced by the failure of methodologies like SaFE, SCRUM, etc. to produce consistent repeatable results. No other technical discipline sees such huge variances between input/outputs. The same practices and principles will yield completely different results when implemented by different teams, orgs or projects: there are no silver bullets.
+[^ambiguous]: Unlike physical production, which is more-or-less constrained by the natural laws of physics, the building software often more of a social process than it is an engineering discipline. There are an intractable amount of dependent variables that affect the production of working software. However, this does not mean we aren't systematic or can't be.
 [^arbitrary]: Part of the problem is that we view success as a one-dimensional "thing to be achieved" rather than an ongoing process with no discrete parts. Ironically, this "ends-means" thinking is a big obstacle in producing good work.
 [^logic]: A great introductory tutorial: https://brilliant.org/wiki/propositional-logic/
 [^grandma]: Realistically though, you should start with people you work with professionally.
