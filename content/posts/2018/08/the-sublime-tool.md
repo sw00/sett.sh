@@ -30,7 +30,7 @@ It's impossible to speak of craft without mentioning tools. Tools will form an
 essential part of any technical pursuit. But in fact, most of any human
 activity will involve a tool of some kind. They're so ubiquitous and obvious
 that we take them for granted, but it can be argued that our tools are an
-extension of ourselves [^kubrick].
+extension of our selves [^kubrick].
 
 > “When we bring down the hammer we do not feel that its handle has struck our
 > palm but that its head has struck the nail\... I have a subsidiary awareness
@@ -60,8 +60,8 @@ _all-purpose_ tool. Such a tool is challenging because it's not immediate
 obvious how to use it most effectively[^scalpels]. It's often so basic in form that it
 seems incomplete but that makes it highly adaptable. It's up to the wielder to
 improvise with it, adapting its form to meet the challenges they're facing. Such
-a tool can be described as being _sublime_: an object simple in form that can
-seemingly do anything.
+a tool, Sennett argues, can be described as being _sublime_: an object simple
+in form that can seemingly do anything[^sublime].
 
 > Getting better at using tools comes to us, in part, when the tools challenge
 > us, and this challenge often occurs just because the tools are not
@@ -96,7 +96,7 @@ as organisations, investing millions into agile methodology certifications. We
 succumb to the selective pressure of achieving arbitrary measures of success,
 rather than engaging with the things we're trying to produce[^arbitrary].
 
-We also tend to overlook that the sublime tool is not static. It has the
+We also tend to overlook that the _all-purpose_ tool is not static. It has the
 potential to be a precision instrument, like a surgeon's scalpel. It can be
 mastered, adapted, the technique behind its use improved upon.
 
@@ -127,6 +127,7 @@ grandma hooked on Propositional Logic, you won't regret it[^grandma].
 
 [^kubrick]: This idea is stretched to the most profound extent by Kubrick in that single, iconic, brilliant [match cut](https://youtu.be/mI3s5fA7Zhk).
 [^scalpels]: Sennett uses the scalpel as an example: early surgeons learnt how to use the new precision instrument only by trial and error.
+[^sublime]: Sennett writes, "the word _sublime_ standing, as it does in philosophy and the arts, for the potently strange. [The sentiment, with respect to tools in craftwork refer to] objects very simple in form that seemingly can do anything".
 [^context]: As evidenced by the failure of methodologies like SaFE, SCRUM, etc. to produce consistent repeatable results. No other technical discipline sees such huge variances between input/outputs. The same practices and principles will yield completely different results when implemented by different teams, orgs or projects: there are no silver bullets.
 [^ambiguous]: Unlike physical production, which is more-or-less constrained by the natural laws of physics, the building software often more of a social process than it is an engineering discipline. There are an intractable amount of dependent variables that affect the production of working software. However, this does not mean we aren't systematic or can't be.
 [^arbitrary]: Part of the problem is that we view success as a one-dimensional "thing to be achieved" rather than an ongoing process with no discrete parts. Ironically, this "ends-means" thinking is a big obstacle in producing good work.
