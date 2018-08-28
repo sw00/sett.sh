@@ -14,8 +14,8 @@ dilemmas:
 3. I'm not an expert in anything.
 
 So instead of yet another tutorial on test-driven Ansible, Kafka or whatever
-the hottest web framework of the week, I present to you some general ideas with
-that come with a better shelf-life.
+the hottest web framework of the week, I present to you some great ideas that
+have a better shelf-life.
 
 ---
 
@@ -89,12 +89,13 @@ context or situation? Such an instrument would be the most valuable thing in a
 developer's proverbial toolbox.
 
 I'd hazard that the closest thing to something like that is the _ability to
-reason_. **There is no substitute for thinking**. Again, so obvious it seems like 
-a cop-out, but it's difficult to understate how much we try to avoid using this 
-tool. As individuals, reaching for the newest latest [buzzword] technology and 
-as organisations, investing millions into agile methodology certifications. We
-succumb to the selective pressure of achieving arbitrary measures of success,
-rather than engaging with the things we're trying to produce[^arbitrary].
+reason_. **There is no substitute for thinking**. Again, so obvious it seems
+like a cop-out, but it's difficult to understate how much we try to avoid using
+this tool. As individuals, reaching for the latest [buzzword] technology and as
+organisations, investing millions into process management and certifications.
+We succumb to the selective pressure of achieving arbitrary measures of
+success, rather than engaging with the things we're trying to
+produce[^arbitrary].
 
 We also tend to overlook that the _all-purpose_ tool is not static. It has the
 potential to be a precision instrument, like a surgeon's scalpel. It can be
@@ -129,7 +130,7 @@ grandma hooked on Propositional Logic, you won't regret it[^grandma].
 [^scalpels]: Sennett uses the scalpel as an example: early surgeons learnt how to use the new precision instrument only by trial and error.
 [^sublime]: Sennett writes, "the word _sublime_ standing, as it does in philosophy and the arts, for the potently strange. [The sentiment, with respect to tools in craftwork refer to] objects very simple in form that seemingly can do anything".
 [^context]: As evidenced by the failure of methodologies like SaFE, SCRUM, etc. to produce consistent repeatable results. No other technical discipline sees such huge variances between input/outputs. The same practices and principles will yield completely different results when implemented by different teams, orgs or projects: there are no silver bullets.
-[^ambiguous]: Unlike physical production, which is more-or-less constrained by the natural laws of physics, the building software often more of a social process than it is an engineering discipline. There are an intractable amount of dependent variables that affect the production of working software. However, this does not mean we aren't systematic or can't be.
+[^ambiguous]: Unlike physical production, which is more-or-less constrained by the natural laws of physics, building software is often more of a social process than it is an engineering discipline. There are an intractable amount of dependent variables that affect the production of working software. However, this does not mean we aren't systematic or can't be.
 [^arbitrary]: Part of the problem is that we view success as a one-dimensional "thing to be achieved" rather than an ongoing process with no discrete parts. Ironically, this "ends-means" thinking is a big obstacle in producing good work.
 [^logic]: A great introductory tutorial: https://brilliant.org/wiki/propositional-logic/
 [^grandma]: Realistically though, you should start with people you work with professionally.
