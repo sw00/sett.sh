@@ -2,7 +2,6 @@
 title: "Critical failure and the mechanics of causality"
 slug: critical-failure
 date: 2018-08-28T17:46:57+02:00
-draft: true
 tags: ["failure", "software-dev"]
 hasMath: yes
 
@@ -194,7 +193,7 @@ Godmode would of course be writing this all in *first-order predicate calculus*
 and you'd certainly make Djikstra proud. But having a general grasp of it
 should be good enough.
 
-There is however an extremely important idea that have helped me in my
+There is however an extremely important idea that has helped me in my
 thinking: the difference between _necessary_ and _sufficient_ conditions.
 
 # The mechanics of causality
@@ -284,4 +283,4 @@ no perfect projects, or teams but I hope this adds to the discourse in a meaning
 
 [^causality]: Be careful though, it's really not the [same thing](https://philosophy.stackexchange.com/questions/24170/causality-vs-implication).
 
-[^failure]: Like the one time I introduced a bug by refactoring someone else's story which halted an entire release on a 7+ dev team project. Or when pushed up private source code to my personal github in the same week that someone else got fired for the same thing.
+[^failure]: Like the one time I introduced a bug by refactoring someone else's story which halted an entire release on a massive 7+ dev squad project. Or when I pushed up private source code to my personal github in the same week that someone else got fired for the same thing.
