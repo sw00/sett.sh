@@ -12,7 +12,7 @@ on the first week of 2014 and caused a recurring outage that lasted a full four
 days.
 
 It was my very first large-scale, distributed production system with
-multi-national integrations and real-time messaging component.  I had been on
+multi-national integrations and a real-time messaging component.  I had been on
 the project for 3 months and had inherited the tech lead role which I shared
 with a senior colleague who had joined after me. Suffice to say we lost a
 lifetime's worth of sleep that week.
@@ -36,7 +36,7 @@ breaks in project continuity and working in a highly sophisticated tech stack
 nobody had any significant experience in[^nonprofit].
 
 There was a lot of firefighting and the problems seemed serious enough that I
-was absolutely terrified of not being able to cope.  So armed with a rigorous
+was absolutely terrified of not being able to cope. So armed with a rigorous
 report of about two dozen urgent "tech debt" items, I recommended a complete
 feature freeze as my first act as tech lead. Alas, greatness is not achieved by
 capitulating to the demands of harsh reality, so feature development was (of
@@ -44,9 +44,10 @@ course) prioritised above all else.
 
 ![Scotty from Star Trek](https://i.imgflip.com/1rojys.jpg#c)
 
-It was certainly not ideal, but the journey to finding the root cause was not
-without some personal cognitive failures (jumping to conclusions is best done
-in an excited panic).
+It was in this context that we were faced with a spectacular outage. While
+certainly not ideal, the journey to finding the root cause was not without
+some personal cognitive failures (jumping to conclusions is best done in an
+excited panic).
 
 # The technical details
 
@@ -130,9 +131,9 @@ be losing my job[^job]. Or so it goes.
 Then, as I tried eat my lunch with a dry mouth, fatigued, my thoughts wandered
 to something I had seen in the codebase during the whole ordeal. Some of the
 Celery workers were set to operate on a timer to complete _recurring_ tasks
-instead of responding to messages. The purpose of these tasks were to generate
+instead of responding to messages. The purpose of these tasks was to generate
 reports from MongoDB records and they were set to run every 5 minutes to
-provide an almost real-time statistics. But why couldn't they be in realtime?
+provide close-to real-time statistics. But why couldn't they be in realtime?
 
 Fuck.
 
@@ -234,7 +235,7 @@ Confused? Yeah, me too most of the time. The final idea is that a condition _A_ 
 
 A deterministic system is **necessary** for the same inputs to produce the same outputs. However, if we negate the one condition then the other condition must also be negated for the to hold: if the same input doesn't produce the same output, then the system isn't deterministic.
 
-I'd encourage you to look the [truth table](https://en.wikipedia.org/wiki/Necessity_and_sufficiency#Definitions) on Wikpedia to grok these concepts a little better. I keep having to revisit them myself.
+I'd encourage you to look at the [truth table](https://en.wikipedia.org/wiki/Necessity_and_sufficiency#Definitions) on Wikpedia to grok these concepts a little better. I keep having to revisit them myself.
 
 # Fin
 
