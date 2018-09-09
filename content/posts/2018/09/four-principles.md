@@ -1,15 +1,13 @@
 ---
-title: "Four principles from four people (Part 1)"
+title: "Four principles from four people (part 1)"
 date: 2018-09-09T15:43:11+02:00
-draft: true
 tags: ["software-dev", "principles", "techniques"]
 ---
 
-I've had such privilege to have worked with so many different people, in so
+I've been extremely privileged to have worked with so many different people, in so
 many different contexts. Being exposed to such diversity has greatly benefited
 me and enriched my world view. But there's also a little bit of everyone I've
-internalised - little tools, values and principles for which I am grateful to
-the people they originate from. 
+internalised - little tools, values and principles for which I am grateful.
 
 You get to learn a lot about a person just by pairing with
 them on a technical problem or even collaborating on something more
@@ -119,7 +117,7 @@ but faster later.
 
 Learn that new technique, fail and master it. Didn't meet your sprint
 commitments? There's always next sprint, really. If something needs to
-absolutely be done, then trust that it will need to get done if not now then
+absolutely be done, then trust that it will need to get done. If not now then
 later, armed with better understanding and more mastery.
 
 There is tremendous value in going slow.
