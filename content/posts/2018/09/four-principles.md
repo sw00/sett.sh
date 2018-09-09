@@ -16,13 +16,13 @@ strategic[^euphemism]. You experience their idiosyncracies and philosophy. And
 in doing so, a little bit of your own idiosyncracies surface, like looking into
 the proverbial "mirror".
 
-Here I'd like to share four principles from four people that have had
-tremendous impact on me and how I approach work. 
+Here I'd like to share four principles I picked up from four people that have
+had tremendous impact on me and how I approach work. 
 
 # Go fast
 
-By a certain absurdly charismatic Irish-American lead developer with the
-mouth of a sailor[^charismatic], from whom I learnt pretty much most of
+Embodied by a certain ridiculously charismatic, Irish-American developer with
+the mouth of a sailor[^charismatic], from whom I learnt pretty much most of
 everything I know now. Although this principle was not stated so explicitly,
 upon reflection I realised a lot of my own approaches to software development
 has been deeply influenced if not learnt directly from him. Let's see if I can
@@ -67,15 +67,57 @@ The first approach is about investigating whether you can break the decision
 down into smaller, low-impact ones. For example, what if you simply load the
 data from a flat text file in memory for now instead of committing to a
 particular database? The second approach is about making the choices that will
-yield you more options. In a way this is closely related to the divide-and-conquer approach too because the former will likely yield more options anyway.
+yield you more options. In a way this is closely related to the
+divide-and-conquer approach too because the former will likely yield more
+options anyway.
 
 # Go slow
 
-# Learn deeply
+There are very few people who are so brilliant and smart that they consistently
+and effortlessly outperform everyone else. Give a smart person a task and they
+will complete it to perfect specification in very little time. But rarer yet
+are people who seem to possess innate wisdom and endless compassion. The
+following principle I learnt from someone who embodies the latter, who I
+consider a role model and had the tremendous privilege of being mentored by at
+first, but then in more official terms as my boss.
 
-# Be principled
+To be precise, the principle is better stated: **go as slow as you need to**.
+Though it may seem in contradiction to the first principle, it's actually quite
+complementary. 
+
+Tasks, goals, missions, objectives. They suffer from a certain effect: that
+once they are explicitly declared, they collapse the problem space and
+obfuscate the _a priori_ assumptions that were necessary to produce them. 
+
+There are always numerous ways to tackle a problem. One way is to solve the
+immediate, first-order situation that you're presented with: if a building's on
+fire, use the buckets you have to put it out. 
+
+An alternative is to take a step back and consider the context and processes
+that led to its emergence: the building is on fire, replace it with fire-resistant material. This requires a deeper wisdom and discipline than the
+first-order "task" oriented thinking[^task]. It is worth taking a detour and
+spending the time to consider and work out a strategy to tackling these
+second-order problems. The kicker here is that learning a problem takes time to
+struggle with it. Something I didn't quite grok for ages because my de facto
+urge is feeling pressured to get the result as quickly as possible when presented with a challenge[^frustration].
+
+What does this actually look like in real life? It means, spending the time to
+set up Continuous Delivery and path to production[^path] right (including the
+time it takes you to learn it). Or putting in effort to position a solid
+proposal for project that gives value not just to the client, but to the people
+working on it too. It means taking some longer detours to build some
+second-order tools to help you produce the first-order thing in higher quality,
+but faster later. Learn that new technique, fail and master it. Didn't meet
+your sprint commitments? There's always next sprint, really. If something needs
+to absolutely be done, then trust that it will need to get done if not now then
+later, armed with better understanding and more mastery.
+
+There is tremendous value in going slow.
 
 
 [^euphemism]: I guess this is a euphemism for making slide decks together.
-[^charismatic]: Those who know him will know.
+[^charismatic]: If
 [^lrm]: https://blog.codinghorror.com/the-last-responsible-moment/
+[^task]: There was a time when I felt very strongly that my worth is tied to how quickly I can tick off boxes and objectives. The problem is that completing tasks quickly doesn't imply that they are valuable or even the right things to do.
+[^frustration]: This often leads to Sisyphian cycle of frustration-then-catharsis.
+[^path]: This is one of my pet peeves. There have been so many projects that have lacked this basic concept of a "path to production". Oh well, maybe the real path to production was all the friends we made along the way.
