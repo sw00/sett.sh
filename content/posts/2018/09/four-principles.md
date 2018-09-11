@@ -28,7 +28,7 @@ principle was not stated so explicitly, upon reflection I realised a lot of my
 own approaches to software development has been deeply influenced if not learnt
 directly from him. Let's see if I can lay out the main ideas below:
 
-**Adopt a bias for action**. Not every decision the same impact, so minimise
+**Adopt a bias for action**. Not every decision has the same impact, so minimise
 its cost and overhead. It's perfectly acceptable (and fun) to play
 rock-paper-scissors with your pair to make low-impact decisions. This blew my
 mind the first time. But I've used this often, though people sometimes find it
@@ -50,7 +50,7 @@ techniques and practices you can adopt to achieve this and it's pretty much
 what all Agile, Continuous Delivery, Lean and DevOps is about in principle.
 
 **Make feedback a first-class citizen**. Invest heavily in the things that will
-give you the right level of information very quickly. On technical level, this
+give you the right level of information very quickly. On a technical level, this
 means Test-Driven Development and Automation. Ask yourself: what is the
 expected impact of this decision and how do I verify it? Write that automated
 test, make friends with your testers and users, push for read access to
@@ -58,18 +58,19 @@ environments, send those emails to other teams and managers. This applies to
 meta-decisions too: retrospectives and one-on-one sessions create a feedback
 loop for how you're working as a team.
 
-**Leverage the last responsible moment**[^lrm]. You will always have more or
+**Leverage the last responsible moment**[^lrm]. You will always have more or a
 higher grade of information later in time than you do right now. Given this,
 your best bet at making an informed decision is later, so all decisions that
 can be deferred should be. Seems simple, but I've found the difficulty is
-actuall in deciding whether you can afford to defer it. Two things are helpful
+actually in deciding whether you can afford to defer it. Two things are helpful
 in this regard: divide-and-conquer and maximising options. 
 
 The first approach is about investigating whether you can break the decision
 down into smaller, low-impact ones. For example, what if you simply load the
-data from a flat text file in memory for now instead of committing to a
+data from a flat text file in memory for now instead of committing to using a
 particular database? The second approach is about making the choices that will
-yield you more options. In a way this is closely related to the
+yield you more options. How about an interface or container object to abstract 
+some details instead of a direct interaction? In a way this is closely related to the
 divide-and-conquer approach too because the former will likely yield more
 options anyway.
 
@@ -123,8 +124,8 @@ later, armed with better understanding and more mastery.
 There is tremendous value in going slow.
 
 [^euphemism]: I guess this is a euphemism for making slide decks together.
-[^cussing]: Truly demonstrable value of expressing your authentic self.
+[^cussing]: Truly demonstrable value in expressing your authentic self.
 [^lrm]: https://blog.codinghorror.com/the-last-responsible-moment/
-[^task]: There was a time when I felt very strongly that my worth is tied to how quickly I can tick off boxes and objectives. The problem is that completing tasks quickly doesn't imply that they are valuable or even the right things to do.
+[^task]: There was a time when I felt very strongly that my worth is tied to how quickly I can tick off boxes and objectives (and I still regress sometimes). The problem is that completing tasks quickly doesn't imply that they are valuable or even the right things to do.
 [^frustration]: This often leads to a Sisyphian cycle of frustration-then-catharsis.
 [^path]: This is one of my pet peeves. There have been so many projects that have lacked this basic concept of a "path to production". Oh well, maybe the real path to production was all the friends we made along the way.
