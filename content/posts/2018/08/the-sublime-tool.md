@@ -2,7 +2,7 @@
 title: "The Sublime Tool"
 date: 2018-08-21T19:23:38+02:00
 markdown: mmark
-tags: ['craft', 'tools', 'software dev']
+tags: ['craft', 'tools', 'software-dev']
 ---
 This was initially meant to be a technical post like I promised, but I was faced with several
 dilemmas: 
