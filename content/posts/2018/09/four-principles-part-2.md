@@ -1,8 +1,7 @@
 ---
 title: "Four principles from four people (part 2)"
 date: 2018-09-12T19:29:46+02:00
-draft: true
-tags: ["software-dev", "craft", "principles"]
+tags: ["software-dev", "principles", "techniques"]
 ---
 
 This is the second part of a blog post in which I share four principles that I
@@ -189,7 +188,7 @@ the people and situations that have shaped my perspective.
 [^js]: Sorry. I was _that_ programmer. There is a lot of JS code I've written that I'm not proud of now.
 [^age]: [By age 35](https://knowyourmeme.com/memes/by-age-35), every programmer should have created their own programming language.
 [^physicists]: For some reason, I get the impression physicists are particularly good at this.
-[^iterative deepening]: This is sufficient for a dilletante, but I've sinced realised it's an inadequate strategy to pursue mastery.
+[^iterative deepening]: This is sufficient for a dilletante, but inadequate if you want to pursue true mastery of any field.
 [^dreyfus]: Admittedly, it's not as rich as the the [Dreyfus skills acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) model, but there is a certain elegance to it.
 [^ussd]: Basically a stock trading system that could be accessed over USSD(it sounds more fancy than it actually is).
 [^accomodation]: The project was set up to be delivered on site in Nairobi, and I had just returned from a year abroad in Brazil just two weeks prior.
