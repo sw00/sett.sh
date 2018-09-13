@@ -9,7 +9,7 @@ This is the second part of a blog post in which I share four principles that I
 picked up from four different people I've been fortunate enough to have worked
 with. The last two principles are less well-formed, they're still cooking,
 incubating so the ideas below will be rough, the writing will be (necessarily)
-context-rich and less concise. Bear with me.
+context-rich and less concise. Bear with me🐻.
 
 If you haven't read it yet, part 1 is over [here](/posts/2018/09/four-principles-from-four-people-part-1/).
 
@@ -21,7 +21,7 @@ We'd spend almost every day musing about every conceivable thing while breaking
 builds and getting up to no good. We'd talk about philosophy, physics, code,
 politics, transportation, sociology, food, municipal governance, world history,
 beer, linguistics, labour law, culture, technology, tax policy and music.
-Clearly someone who shares the child-like awe for knowledge and how
+Clearly someone who shares the child-like awe for knowledge and understands how
 strange it is that anything could be something at all.
 
 We worked together on one particularly big, unruly AngularJS
@@ -96,9 +96,9 @@ ineffecient form of [iterative
 deepening](https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search),
 albeit with different conclusions. Essentially, I was actually touching on a
 particular class of problem: "learning how to learn". Something I've been
-actively trying to engage in lately. I had a turning point when Edward Kmett
-put it into perspective really well for me in [his
-talk](https://youtu.be/j0XmixCsWjs?t=14m6s)[^dreyfus]. 
+actively trying to engage in lately. I think Edward Kmett put it into
+perspective really well for me in [his
+talk](https://youtu.be/j0XmixCsWjs?t=14m6s)[^dreyfus].
 
 So, how does the principle **know what you know** emerge out of this? If you
 apply metacognition, think about knowledge, information and learning
@@ -121,7 +121,7 @@ I didn't meet my pair until the project was already in gear. He joined me two
 weeks in, but quickly discovered that he was staunch follower of Uncle Bob's
 [Clean
 Code](https://www.safaribooksonline.com/library/view/clean-code/9780136083238/)
-approach. Not only that, he also was quite ahead of me in his reading of
+philosophy. Not only that, he also was quite ahead of me in his reading of
 [Domain Driven
 Design](https://dzone.com/refcardz/getting-started-domain-driven). So
 naturally, every decision we made needed to be motivated by a reference to
@@ -189,7 +189,7 @@ the people and situations that have shaped my perspective.
 [^js]: Sorry. I was _that_ programmer. There is a lot of code I've written that I'm not proud of now.
 [^age]: [By age 35](https://knowyourmeme.com/memes/by-age-35), every programmer should have created their own programming language.
 [^physicists]: For some reason, I get the impression physicists are particularly good at this.
-[^iterative deepening]: The developer I explained this to would go on to thank me later, saying most life-changing insight she's ever experienced. I never really realised the tremendous impact it had.
+[^iterative deepening]: This is sufficient for a dilletante, but I've sinced realised it's an inadequate strategy to pursue mastery.
 [^dreyfus]: Admittedly, it's not as rich as the the [Dreyfus skills acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) model, but there is a certain elegance to it.
 [^ussd]: Basically a stock trading system that could be accessed over USSD(it sounds more fancy than it actually is).
 [^accomodation]: The project was set up to be delivered on site in Nairobi, and I had just returned from a year abroad in Brazil just two weeks prior.
