@@ -186,7 +186,7 @@ the people and situations that have shaped my perspective.
 
 [^adventure]: I particularly enjoyed that long weekend trip to Uruguay we failed to adequately plan for (of course) and ended up interstate bus-hopping from Chuy all the way to Montevideo. Neither of us spoke Spanish, or had a concrete plan of how to get back i time for work next week except that we'll hopefully find another bus or something.
 [^electric_commander]: The CI at that time was a single instance, crumbling old thing shared by the entire organisation. It was also a tightly coupled microservices architecture in that all changes culminated in changes in the UI layer.
-[^js]: Sorry. I was _that_ programmer. There is a lot of code I've written that I'm not proud of now.
+[^js]: Sorry. I was _that_ programmer. There is a lot of JS code I've written that I'm not proud of now.
 [^age]: [By age 35](https://knowyourmeme.com/memes/by-age-35), every programmer should have created their own programming language.
 [^physicists]: For some reason, I get the impression physicists are particularly good at this.
 [^iterative deepening]: This is sufficient for a dilletante, but I've sinced realised it's an inadequate strategy to pursue mastery.
