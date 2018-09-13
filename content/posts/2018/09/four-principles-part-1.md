@@ -1,7 +1,7 @@
 ---
 title: "Four principles from four people (part 1)"
 date: 2018-09-09T15:43:11+02:00
-tags: ["software-dev", "principles", "techniques"]
+tags: ["software-dev", "principles", "craft"]
 ---
 
 I've been extremely privileged to have worked with so many different people, in so

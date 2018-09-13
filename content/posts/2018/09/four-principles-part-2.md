@@ -92,7 +92,7 @@ in detail.  But you only need to _find the next closest bit of information_ to
 get you closer to the end.
 
 I didn't realise it at the time, but I was basically illustrating a crude,
-ineffecient form of [iterative
+inefficient form of [iterative
 deepening](https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search),
 albeit with different conclusions. Essentially, I was actually touching on a
 particular class of problem: "learning how to learn". Something I've been
