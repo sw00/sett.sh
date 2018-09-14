@@ -48,8 +48,8 @@ understanding of the tools we were meant to use. This is because he's a
 scientist: he created a programming language for his masters thesis[^age], a
 variant of ALGOL that used Portuguese keywords - perfect for teaching young
 Brazilian children computer programming. As such, he had the qualities and
-**grit of a scientist**, a need to fully understand the theory in order to
-wield it effectively, whereas up until then I had always favoured pragmatic,
+**grit of a scientist** - a need to fully understand the theory in order to
+wield it effectively - whereas up until then I had always favoured pragmatic,
 exploratory approaches that relied primarily on large quantities of feedback.
 
 Because of this trait, he would sometimes seem a little slower in comparison.
@@ -74,7 +74,7 @@ approached tasks in the past. And then I drew something like this for her:
 ![A map of dots with some paths connected through them](https://i.imgur.com/B3mj4nF.jpg)
 
 I was trying to represent knowledge as a map of infinite space. Each dot is a
-single bit of information (or fact, if you will) and activity of completing a
+single bit of information (or fact, if you will) and the activity of completing a
 task is a journey through this space, connecting the dots. Some dots would get
 me closer to completion, other times I'd end up meandering a little. The point
 is that if I were to do this for a few years, some areas of knowledge would
@@ -93,14 +93,15 @@ get you closer to the end.
 I didn't realise it at the time, but I was basically illustrating a crude,
 inefficient form of [iterative
 deepening](https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search),
-albeit with different conclusions. Essentially, I was actually touching on a
-particular class of problem: "learning how to learn". Something I've been
-actively trying to engage in lately. I think Edward Kmett put it into
-perspective really well for me in [his
-talk](https://youtu.be/j0XmixCsWjs?t=14m6s)[^dreyfus].
+albeit with different conclusions[^dreyfus]. Essentially, I was actually
+touching on a particular class of problem: "learning how to learn". Something
+I've been actively trying to engage in lately. This is something Edward Kmett
+put into perspective quite well for me in this wonderful talk, [Stop Treading
+Water: Learning to Learn](https://youtu.be/j0XmixCsWjs?t=14m6s) - check it out
+you won't regret it.
 
 So, how does the principle **know what you know** emerge out of this? If you
-apply metacognition, think about knowledge, information and learning
+apply metacognition and think about knowledge, information and learning
 you can acquire some extra tools to continuously improve and grow.
 By taking a deliberate, critical approach to learning, you can situate yourself
 and the next step you need to take. So, through truly knowing what you know
@@ -137,7 +138,7 @@ recall a large point of contention about what the best abstraction to use. I
 favoured a quick and dirty implementation that would quickly allow us to move
 on and start the rest of the features. However, my pair was having none of that
 and we had an impasse that lasted a few days. During this time, the both of us
-ended up deeply researching the tech stack(ASP.NET Core), clean/hexagonal
+ended up deeply researching the tech stack (.Net Core), clean/hexagonal
 architecture[^clean] to make our case. Him, in favour of large effort in
 redesign, while I was trying to avoid this work altogether.
 
@@ -188,10 +189,10 @@ the people and situations that have shaped my perspective.
 [^js]: Sorry. I was _that_ programmer. There is a lot of JS code I've written that I'm not proud of now.
 [^age]: [By age 35](https://knowyourmeme.com/memes/by-age-35), every programmer should have created their own programming language.
 [^physicists]: For some reason, I get the impression physicists are particularly good at this.
-[^iterative deepening]: This is sufficient for a dilletante, but inadequate if you want to pursue true mastery of any field.
-[^dreyfus]: Admittedly, it's not as rich as the the [Dreyfus skills acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) model, but there is a certain elegance to it.
+[^iterative deepening]: This is sufficient for a dilettante, but inadequate if you want to pursue true mastery of any field.
+[^dreyfus]: Admittedly, it's not as rich as the the [Dreyfus skills acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) model, but there is a certain simple elegance to it.
 [^ussd]: Basically a stock trading system that could be accessed over USSD(it sounds more fancy than it actually is).
 [^accomodation]: The project was set up to be delivered on site in Nairobi, and I had just returned from a year abroad in Brazil just two weeks prior.
-[^clean]: Sometimes also known as ports and adapters pattern or onion architecture. See http://codingcanvas.com/hexagonal-architecture/
+[^clean]: Sometimes also known as the _Ports and Adapters pattern_ or _Onion architecture_. See http://codingcanvas.com/hexagonal-architecture/
 [^prickly]: To be clear, he's actually genuinely nice and not the prickly character my description makes him seem.
 [^pushover]: In contrast, I tend to be a pushover most of the time.
