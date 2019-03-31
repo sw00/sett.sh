@@ -2,21 +2,20 @@
 title: "A Knowledge Workers Toolkit"
 date: 2019-03-25T20:47:54+02:00
 tags: ["insight", "software-dev", "philosophy"]
-draft: true
 ---
 
 Knowledge work can have some pretty tricky characteristics that renders it
 distinct from physical work. For one, it defies quantification. While chefs,
-carpenters and other tradespeople can their efforts take shape into concrete,
-material output, the knowledge worker is not so fortunate.
+carpenters and other tradespeople can see their efforts take shape into
+concrete, material output, the knowledge worker is not so fortunate.
 
 Our raw materials are intangible - what tools could we use to manipulate them?
 Likewise, our output can seem quite ephemeral - did the thing we produced
 actually add value, by what measure[^value]? Worst of all, our effort[^effort]
 is elastic and difficult to wield in a consistent and predictable way.  Effort
 spent does not always translate into value extracted. Often something as
-nebulous as a change of perspective can yield great benefits of orders of
-magnitude, while we can stutter and struggle for days to achieve then next
+nebulous as a change of perspective can yield great benefits in orders of
+magnitude, but other times stutter and struggle for days to achieve a 
 basic goal[^parkinsons].
 
 Despair. How are we to cope with this and take control of our own faculties?
@@ -29,7 +28,7 @@ deliberate and perhaps obtain some tools for thought.
 Arguably the closests thing to tools we have are the mental models we employ
 when working on a task. This is true is the most general sense, from changing a
 tyre to analysing a dataset. We're always using an abstraction to make sense of
-the world and using it to make decisions that will give us the outcome we want.
+the world and help us to make decisions that will give us the outcome we want.
 Success depends greatly on how closely the mental model we employ corresponds
 to the external world.
 
@@ -55,21 +54,22 @@ potatoes. This is because a cleaver has the characteristic of being large and
 weighty, with a flat blade edge well suited for a chopping motion. It lacks the
 small, sharp, angled blade that is more suited to slicing and peeling.
 
-We can analyse mental models in the same way we do with real tools. It may be
-useful to say that they all exhibit at least two types of properties. Ones that
-are direct and intentional (by design), but also some properties that are
-unintentional and emergent. 
+We can analyse mental models in the same way we do with real tools. But first
+it may be useful to say that they all exhibit at least two types of properties.
+Ones that are _direct_ and _intentional_ (by design), but also some properties that
+are _unintentional_ and _emergent_. 
 
-For example, using metaphor of construction to frame how software is created
-immediately brings us to think about it as a sequential process. One in which
-we lay blocks upon blocks of foundation until we complete a structure.  The
-unintentional consquence of this model is that it hides the relationship
+For example, using a metaphor of building construction to frame how software is
+created immediately brings us to think about it as a _sequential_ process. One in
+which we lay blocks upon blocks of foundations until we complete a structure.
+The unintentional consquence of this model is that it hides the relationship
 between local and global components. Even worse, the metaphor offers no helpful
 description of how the software might behave. Its bias is the assumption that
-the whole is merely the sum of its parts.
+the whole is merely the sum of its parts that obfuscates other aspects that
+may be important.
 
 
-## Characteristics of models
+## Some Characteristics of Models
 
 In order to be more mindful of the mental models we're using, it's useful to
 know some qualities we may want to evaluate them against[^context]. I've often
@@ -99,14 +99,14 @@ used the following to try and explore a problem space:
   made cheaper or more expensive?
 
 * **Relational**: are there traits that make certain things belong together or
-  interact?
+  interact? Are they fuzzy and probabilistic, or concrete and deterministic?
 
 These are just some general things that may be useful to think about when
 approaching a problem. They are incomplete and this is not an exhaustive list
-but I've often found some of them helpful when applied deliberately to a
-problem. In future posts, I hope to expand on specific models that I've used to
-make sense of phenomena I've encountered in software development. Hopefully,
-they will useful or at least entertaining.
+but I've often found some of them helpful when applied prudently in
+problem-solving.  In future posts, I hope to expand on specific models that
+I've used to make sense of phenomena I've encountered in software development.
+Hopefully, they will useful or at least entertaining to explore.
 
 [^value]: And does it retain value or will it diminish?
 
