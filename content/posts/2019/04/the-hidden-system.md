@@ -12,12 +12,52 @@ try and explore this thing below.
 
 # Complexity
 
-I think it's a well known trope that everyone knows by now: software is
-complex and writing software even moreso. However, it's worth noting that
+I think it's a well known trope that everyone knows by now: software is complex
+and the activity of producing valid, useful functionality is complicated and
+difficult. And with the advent of dynamic infrastructure and the need to evolve
+systems instead of specifying them upfront, we're probably crossing a threshold
+that we don't fully understand yet. However, we are likely still experiencing
+the paradigm shift that began decades ago when the first two machines exchanged
+messages over TCP/IP. There's just _so much more_ of it now.
+
+It's highly likely that if you work in software today, you're dealing with
+distributed systems. That is, your system consists of many different parts that
+interact with each other across boundaries (processes, network, virtual/physical machines) 
+to provide a service or function. We can understand intuitively that complexity 
+in a system is unavoidable and emergent whenever we have the following
+properties: 
+
+- many parts that combine to form a whole (size/magnitude)
+- the parts are different from each other (differentiation)
+
+What are the implications of complexity though? We know generally that
+complexity is bad because it makes it harder to reason about the changes we
+want to make, making our work as software developers more challenging. This
+tends to correspond with the standard explanation we tend give to non-technical
+folk when talking about things like **techincal debt** or **refactoring**.
+
+But what does that mean? Let's dig a little deeper and see if we can get more
+precise. Complexity in any system makes outcomes harder to predict. This is a
+fundamental trait of naturally occuring _complex systems_[^complex_systems]
+(weather, climate) and emergent ones (stock markets).
+
+## Complex Systems
+
+
+# Feedback
+
+Given It is no
+longer sufficient to reason about software development as the act of writing
+instructions for computers to execute. In practice, nobody thinks of software
+development in
+this way (I hope).
+
+
+However, it's worth noting that
 we're probably crossing a new threshold of complexity in which everything is
 distributed and everything is obsessively "scaled"[^scale]. Unless you're
 writing embedded software[^embedded], you're most likely working on a
-distributed software system. I use the term _system_ here in the most general
+distributed software system. That is, your software consists of many different components and interacts with them in . I use the term _system_ here in the most general
 sense: simply a thing that is composed of many other, different things that
 relate or interact.
 
@@ -68,6 +108,7 @@ the software system might drift toward complexity. Fortunately, the smart people
 and actively try to keep it elegant and simple. But the blindspot
 
 [^smell]: http://wiki.c2.com/?CodeSmell
+[^complex_systems]: [P. W. Anderson. 1972. More Is Different. Science 177, 4047 (1972), 393–396.](https://www.tkm.kit.edu/downloads/TKM1_2011_more_is_different_PWA.pdf)
 [^scale]: We're still experiencing the waves of the paradigm shift brought about decades ago, when the first computers were networked together.
 [^embedded]: Even then, you'd have to figure out how to package, distribute and deploy your software.
 [^cockburn]: https://twitter.com/TotherAlistair/status/1116795119791824896
