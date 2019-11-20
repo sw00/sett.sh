@@ -2,7 +2,7 @@ baseurl = "https://sett.sh/"
 title = "Sett Wai"
 languageCode = "en"
 theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/sw00\">Sett Wai</a> 2018"
+copyright = "© Sett Wai 2019"
 disqusShortname = "sett-sh"
 googleAnalytics = "UA-61607130-1"
 Paginate = 5
@@ -13,6 +13,11 @@ posts = "/posts/:year/:month/:slug"
 
 [params]
 
+[params.rss]
+includeContent = true
+authorName = "Sett Wai"
+authorEmail = "exec@sett.sh"
+
 [params.assets]
 customCSS = ["css/custom.css"]
 
@@ -22,6 +27,7 @@ poweredby = false
 related = true
 enableSocial = true
 adsense = ""
+codeCopy = true
 
 
 [params.highlight]
@@ -35,6 +41,13 @@ page = "settface"
 twitter = "settface"
 github = "sw00"
 email = "exec@sett.sh"
+rss = "posts/index.xml"
+
+[params.social.config]
+platforms = ["email", "github", "twitter", "rss"]
+
+[params.features]
+disqusOnDemand = true 
 
 [taxonomies]
 tag = "tags"
