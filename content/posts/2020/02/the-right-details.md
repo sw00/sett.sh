@@ -12,7 +12,7 @@ I've been spending a lot of time with infrastructure in my current role, wrangli
 Operating machinary that pushes buttons and pulls levers on other machines ad infinitum.
 In this world the conventional notions of _software design_ and _architecture_ seem to be hidden away in a galaxy of configuration details, sharded between the plethora of YAML files, and smothered under the avalanche of container images, build scripts and orchestration tools.
 
-We often to take for granted that all this work involved is necessary and driven by the inherent nature of large-scale, distributed systems world we're working in.
+We often justify all this work as necessary and driven by the inherent nature of the world large-scale, distributed systems we're working in.
 Unfortunately, this distributed systems world is still a very messy space where technology, culture and methodology coalesces into some supermassive complex, adaptive web of socio-technical interactions.
 I tend to think of it as a giant multi-dimensional [Jenga](https://en.wikipedia.org/wiki/Jenga) game.
 
