@@ -31,7 +31,7 @@ This feeling is quite possibly exemplified in the following statement by Jonatha
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Programming today is exactly what you’d expect to get by paying an isolated subculture of nerdy young men to entertain themselves for fifty years. You get a cross between Dungeons &amp; Dragons and Rubik’s Cube, elaborated a thousand-fold. <a href="https://t.co/Mug9k7ioIG">https://t.co/Mug9k7ioIG</a></p>&mdash; Jonathan Edwards (@jonathoda) <a href="https://twitter.com/jonathoda/status/1024098312398536704?ref_src=twsrc%5Etfw">July 31, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-As a nerdy guy who does indeed enjoy Dungeons and Dragons and Rubik's cubes, this struck a chord. But it's not an empty, inflammatory statement, as Mr Edwards expounds further:
+As a nerdy guy who does indeed enjoy Dungeons and Dragons and Rubik's Cubes, this struck a chord. But it's not an empty, inflammatory statement, as Mr Edwards expounds further:
 
 >  I’m serious: Dungeons & Dragons requires mastery of an encyclopedia of minutiae; Rubik’s Cube is a puzzle requiring abstract mathematical thinking.
 
