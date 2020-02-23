@@ -2,11 +2,11 @@
 title: "Sweating the Right Details"
 date: 2020-02-22T09:29:34+02:00
 draft: true
-tags: ["programming", "software-developement", "design"]
+tags: ["programming", "insight", "software-engineering", "design"]
 ---
 
 Some things have been bothering me for a while now, about programming as an activity and the software engineering discipline from which it follows.
-I've had some false-starts in articulate the insights that I'm grappling for. But let me finally commit to trying, at least.
+As usual, I've been struggling for a while to articulate the insights that I'm grappling at. But let me finally commit to trying, at least.
 
 I've been spending a lot of time with infrastructure in my current role, wrangling automation, troubleshooting environments, configuring and optimising builds.
 Operating machinary that pushes buttons and pulls levers on other machines ad infinitum.
@@ -20,7 +20,7 @@ I try to cope with this by doubling down on first principles. _Easy-isn't-simple
 It's difficult to look at all this activity and not feel a little overwhelmed, a bit perplexed and suspicious about where we are and where we're going as an industry and discipline.
 And then I see the tools we have been offered up to help us, and then\... despair:
 
-<a href="https://landscape.cncf.io" target="new">![The "landscape" of cloud tools published by the CNCF](/2020/02/img/landscape.png)</a>
+<a href="https://landscape.cncf.io" target="new">![The "landscape" of cloud tools published by the CNCF](/posts/2020/02/img/landscape.png)</a>
 <small>The image above illustrates the ecosystem of tools used to build and maintain a modern software system today.</small>
 
 It's difficult to reconcile the picture above with the notion of writing software as a problem solving activity, realised by humble text-editor and compiler/interpreter.
@@ -53,9 +53,10 @@ This requires tools and approaches rooted in design, critical thinking and probl
 
 Generally, I think we're reaching new levels of scale and complexity at which incremental approaches to design are insufficient.
 This will force the fore-runners in the field to return to the fundamentals and experiment.
-Perhaps the advent of [serverless](https://serverless-stack.com/chapters/what-is-serverless.html) and [deployless](https://thenewstack.io/dark-a-new-programming-language-for-deployless-deployments/) represents the start of this shift.
+Perhaps the advent of [serverless](https://serverless-stack.com/chapters/what-is-serverless.html) and [deployless](https://thenewstack.io/dark-a-new-programming-language-for-deployless-deployments/) represents the start of this shift[^low_code].
 Hopefully can learn and apply that same philosophy in our own daily work.
 Hopefully, reaching for fundamentals can give us more leverage and help us sweat the right details. More on this later.
 
 
 [^taylorism]: writing software is more like research and design of a new car than assembling that car in a conveyor belt.
+[^low_code]: there also seems to be a revival of "no-code" or "low-code" approaches and tools might belong here too (although I'm skeptical).
