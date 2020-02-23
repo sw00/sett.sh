@@ -42,19 +42,19 @@ Far more insidious than that, is that it hints at a design philosophy and soluti
 I suppose this isn't a novel insight or complaint.
 Maybe it's just a rite of passage that all developers must go through: a mid-career crisis that forms a better appreciation for software complexity, after getting burnt for the umpteenth time, finally learning\...
 Fortunately, I know there are many movements, practices and tools before that offer an escape to lift us out of "The Tar Pit" and into the realm of deliberate design and problem solving.
-Things such as _[Domain Driven Design](https://wiki.c2.com/?DomainDrivenDesign)_, _Functional Reactive Programming_, even the venerable _Design Patterns_ and offer some escape routes.
+Things such as _[Domain Driven Design](https://wiki.c2.com/?DomainDrivenDesign)_, _Functional Reactive Programming_, even the venerable _Design Patterns_ offer some escape routes.
 But putting them to practice often feels like trying to steer an oil tanker, against its own tremendous momentum.
 
 I'm hopeful that these approaches will win. But not in the same way that Agile has "won".
 Software problems cannot be solved by simply playing with stickies and JIRA reports.
 These are artifacts and tools of bureaucracy, of managing work from a production-based worldview[^taylorism], and ill-suited for problems of software engineering which is knowledge work.
 I've come to believe (cautiously) that the problems of software engineering are fundamentally about dealing with complexity in its many forms.
-This requires tools and approaches rooted in design, critical thinking and problem solving - general skills that people excel at when given the chance to be people in their own full complexity.
+This requires tools and approaches rooted in design, critical thinking and problem solving - general skills that people can excel at when given the chance to be people in their own full complexity instead of being hostage to methodology and process.
 
 Generally, I think we're reaching new levels of scale and complexity at which incremental approaches to design are insufficient.
 This will force the fore-runners in the field to return to the fundamentals and experiment.
 Perhaps the advent of [serverless](https://serverless-stack.com/chapters/what-is-serverless.html) and [deployless](https://thenewstack.io/dark-a-new-programming-language-for-deployless-deployments/) represents the start of this shift[^low_code].
-Hopefully can learn and apply that same philosophy in our own daily work.
+Hopefully we can learn and apply that same philosophy in our own daily work.
 Hopefully, reaching for fundamentals can give us more leverage and help us sweat the right details. More on this later.
 
 
