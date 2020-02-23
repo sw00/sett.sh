@@ -1,7 +1,6 @@
 ---
 title: "Sweating the Right Details"
 date: 2020-02-22T09:29:34+02:00
-draft: true
 tags: ["programming", "insight", "software-engineering", "design"]
 ---
 
