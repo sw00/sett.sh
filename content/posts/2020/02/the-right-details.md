@@ -42,7 +42,7 @@ Far more insidious than that, is that it hints at a design philosophy and soluti
 I suppose this isn't a novel insight or complaint.
 Maybe it's just a rite of passage that all developers must go through: a mid-career crisis that forms a better appreciation for software complexity, after getting burnt for the umpteenth time, finally learning\...
 Fortunately, I know there are many movements, practices and tools before that offer an escape to lift us out of "The Tar Pit" and into the realm of deliberate design and problem solving.
-Things such as _[Domain Driven Design](https://wiki.c2.com/?DomainDrivenDesign)_, _Functional Reactive Programming_, even _Design Patterns_ and others we can grasp at that offer some salves for our wounds.
+Things such as _[Domain Driven Design](https://wiki.c2.com/?DomainDrivenDesign)_, _Functional Reactive Programming_, even the venerable _Design Patterns_ and offer some escape routes.
 But putting them to practice often feels like trying to steer an oil tanker, against its own tremendous momentum.
 
 I'm hopeful that these approaches will win. But not in the same way that Agile has "won".
