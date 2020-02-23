@@ -9,7 +9,7 @@ As usual, I've been struggling for a while to articulate the insights that I'm g
 
 I've been spending a lot of time with infrastructure in my current role, wrangling automation, troubleshooting environments, configuring and optimising builds.
 Operating machinary that pushes buttons and pulls levers on other machines ad infinitum.
-In this world the conventional notions of _software design_ and _architecture_ seem to be hidden away in a galaxy of configuration details, sharded between the plethora of YAML files, and smothered under the avalanche of container images, build scripts and orchestration tools.
+In this world the conventional notions of _software design_ and _architecture_ seem to be hidden away in a galaxy of configuration details, sharded amongst the plethora of YAML files, and smothered under the avalanche of container images, build scripts and orchestration tools.
 
 We often justify all this work as necessary and driven by the inherent nature of the world large-scale, distributed systems we're working in.
 Unfortunately, this distributed systems world is still a very messy space where technology, culture and methodology coalesces into some supermassive complex, adaptive web of socio-technical interactions.
@@ -30,13 +30,13 @@ This feeling is quite possibly exemplified in the following statement by Jonatha
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Programming today is exactly what you’d expect to get by paying an isolated subculture of nerdy young men to entertain themselves for fifty years. You get a cross between Dungeons &amp; Dragons and Rubik’s Cube, elaborated a thousand-fold. <a href="https://t.co/Mug9k7ioIG">https://t.co/Mug9k7ioIG</a></p>&mdash; Jonathan Edwards (@jonathoda) <a href="https://twitter.com/jonathoda/status/1024098312398536704?ref_src=twsrc%5Etfw">July 31, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-As a nerdy guy who does indeed enjoy Dungeons and Dragons and Rubik's Cubes, this struck a chord. But it's not an empty, inflammatory statement, as Mr Edwards expounds further:
+As a nerdy guy who does indeed enjoy Dungeons and Dragons and Rubik's Cube, this struck a chord. But it's not an empty, inflammatory statement, as Mr Edwards expounds further:
 
 >  I’m serious: Dungeons & Dragons requires mastery of an encyclopedia of minutiae; Rubik’s Cube is a puzzle requiring abstract mathematical thinking.
 
 While I don't agree with the entire article, it's a compelling description of sofware development in practice.
 Programming, being the most elementary activity in software development, does seem to superficially favour those who have the requisite level of monomania to master these [minutaie](https://stackoverflow.com/questions/26021181/not-enough-entropy-to-support-dev-random-in-docker-containers-running-in-boot2d).
-Far more insidious than that, is that it hints at a design philosophy and solution approach that is incrementalist and potentially suffering from [Einstellung](https://en.wikipedia.org/wiki/Einstellung_effect).
+But far more insidious than that, is that it hints at a design philosophy and solution approach that is incrementalist and potentially suffering from [Einstellung](https://en.wikipedia.org/wiki/Einstellung_effect).
 
 I suppose this isn't a novel insight or complaint.
 Maybe it's just a rite of passage that all developers must go through: a mid-career crisis that forms a better appreciation for software complexity, after getting burnt for the umpteenth time, finally learning\...
