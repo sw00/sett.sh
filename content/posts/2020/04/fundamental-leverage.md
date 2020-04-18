@@ -1,7 +1,6 @@
 ---
-title: "Leveraging fundamentals"
+title: "Fundamental leverage for fundamental improvements"
 date: 2020-04-18
-draft: true
 ---
 
 In my previous [post](/posts/02/the-right-details), I ranted a bit about the state of programming tools based on my struggles working with infrastructure in large-scale systems.
@@ -16,13 +15,13 @@ It was hosted by the Brookhaven National Laboratory, a juggernaut of science fac
 Battling jet lag and sleep deprivation, I was struck by some insights from from one of keynote presentations by Brookhaven's associate director Jim Misewich. 
 He was presenting an overview of some of the major breakthrough scientific accomplishments that the facility helped with, particularly in imaging technology that allowed scientists to study behaviours of nanomaterials, to imaging individual molecules themselves so they can be observed _during_ chemical reactions, in-situ!
 
-There was a case which stood out to me, in which the researchers found a way to increase fuel burner efficiency by a tiny margin[^margin] - something in the order of less than 2%.
+There was a case which stood out to me, in which the researchers found a way to increase fuel burner efficiency by a tiny margin - something in the order of less than 2%.
 But while such a marginal improvement didn't seem so impressive on its own, once industrialised and scaled up it would result in trillions of dollars saved in fuel consumption, not to mention the immense positive environmental impact.
-Such minor improvements that have a extraordinary consequences at scale is a defining feature of fundamental science research: combining deep expertise at the limits of human knowledge with solid engineering and a billion dollars worth of exprimental equipment to eek out marginal knowledge.
+Such minor improvements that have a extraordinary consequences at scale is a defining feature of fundamental science research: combining deep expertise at the limits of human knowledge with solid engineering and a billion dollars worth of exprimental equipment to eek out tiny marginal returns in knowledge that can have extraordinary impact.
 It then occurred to me that we get to do this in software every day.
 And for the low price of a bit of upfront effort in problem solving and communication.
 
-This of course, raises the question: what are the things in software construction that gives us such tremendous leverage?
+This of course, raises the question: what are the things in software development that gives us such tremendous leverage?
 
 ## Fundamental software development
 
@@ -46,5 +45,5 @@ Fundamental improvements require different assumptions and primitives than the o
 
 
 [^serialisation]: Never mind that these are serialisation formats and not programming languages so they are limited in expressivity.
-[^compsci]: some semblance of this is taught as part of computer science education but I've hardly ever seen such thinking applied in the wild.
+[^compsci]: Some semblance of this is taught as part of computer science education but I've hardly ever seen such thinking applied in the wild.
 [^management]: I also have a bone to pick with the management of software projects not being conducive to such approaches, but I won't get into that here.
